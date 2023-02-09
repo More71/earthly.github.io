@@ -1,0 +1,497 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: black;
+    width:100%;
+    height:80px;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display:inline; 
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.tag{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    vertical-align:top;
+
+    
+}
+
+.name{
+    font-weight: bold;
+    font-size: 32px; 
+    vertical-align:bottom; 
+    margin-right: 5px; 
+    color: green; 
+    
+}
+
+.tagl{
+    margin-right: 500px;
+    vertical-align: text-bottom;
+
+}
+
+.a{
+    margin-right: 60px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.user{
+    margin-left: 100px;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+}
+
+.cart{
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+body{
+    height: 90vh;
+    background: linear-gradient(
+        to right,
+        pink 0%,
+        pink 50%,
+        skyblue 50%,
+        skyblue 100%
+    );
+
+}
+
+.main{
+    display: flex;
+}
+
+.container-product{
+    width: 50%;
+    height: fit-content;
+    margin-top: 10px;
+    align-content: center;    
+}
+
+.container-about{
+    margin-left: -1px;
+    width: 50%;
+    height: fit-content;
+    color: white;
+    background-size: cover;
+    margin-left: 60px;
+    padding-right: 60px;
+    margin-top: 70px;
+}
+
+.tag2{
+    display: inline;
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 40px;
+    width: 100%;
+    background-color: skyblue;
+    font-family: 'Unbounded', cursive;
+    padding-left: 226px;
+    padding-right: 215px;
+    margin-bottom: 40px;   
+    font-weight: 300; 
+}
+
+.cup{
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 200px;
+    width: 300px;
+    display: inline;
+    border-radius: 30px;
+    cursor: pointer;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.straw{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: inline;
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+.pro1{
+    display: inline;  
+    margin-left: 105px; 
+    text-align: center; 
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.pro2{
+    display: inline;
+    margin-left: 175px;
+    margin-right: 70px;
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.pro3{
+    display: inline;
+    margin-left: 90px;
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.pro4{
+    display: inline;
+    margin-left: 125px;
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.price1{
+    display: inline;
+    margin-left: 170px;
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.price2{
+    display: inline;
+    margin-left: 308px;
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.buy{
+    margin-top: 10px;
+    width: 145px;
+    height: 36px;
+    border-radius: 16px;
+    border: none;
+    margin-right: 5px;
+    margin-left: 60px;
+    padding-top: 3px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    font-family: 'Unbounded', cursive;
+    font-weight: 700;
+
+}
+
+.buy:hover{
+    background-color: black;
+    color: white;
+}
+
+.buy:active{
+    opacity: 0.8;
+}
+
+.wishlist{
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    vertical-align:bottom;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: large;
+    margin-right: 5px;
+    color: white;
+    background-color: palevioletred;
+    margin-bottom: 100px;
+    cursor: pointer;
+    border: none;
+}
+
+.wishlist:hover{
+    background-color: white;
+    color: palevioletred;
+    border: 1px solid palevioletred;
+}
+
+.shop{
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    vertical-align:bottom;
+    margin-right: 5px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.shop:active{
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.more{
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    vertical-align:bottom;
+    margin-right: 25px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.more:hover{
+    background-color: black;
+    color: white;
+}
+
+.more:active{
+    opacity: 0.8;
+}
+
+.container-bottom{
+    margin-top: 100px;
+    background-color: rgb(247, 184, 247);
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Unbounded', cursive;
+    
+}
+
+.abut{
+    color: green;
+    font-weight: bolder;
+}
+
+.content{
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-top: 50px;
+    line-height: 30px;
+    font-size: 17px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.tag3{
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom:100px;
+}
+
+.cups{
+    height: 220px;
+    width: 370px;
+    display: grid;
+    float: left;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.made1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.made-from{
+    margin-top: 55px;
+    font-weight: 300;
+    font-family: 'Unbounded', cursive;
+    text-align: right;
+    vertical-align: top;
+    margin-bottom: 30px;
+
+}
+
+.glass{
+    height: 220px;
+    width: 370px;
+    margin-top: 100px;
+    vertical-align: top;
+    display: block;
+    float: right;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.content2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.made-from-2{
+    margin-top: 320px;
+    font-weight: 300;
+    font-family: 'Unbounded', cursive;
+    text-align: right;
+    vertical-align: top;
+    margin-bottom: 40px;
+}
+
+.feature1{
+    display: grid;
+    float: left;
+    margin-top: 80px;
+    height: 100px;
+    width: 100px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+}
+
+.feature1-name{
+    margin-top: 155px;
+    font-family: 'Unbounded', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.feature2{
+    height: 80px;
+    width: 80px;
+    display: grid;
+    float: right;
+    padding-left: 35px;
+}
+
+.feature2-name{
+    font-family: 'Unbounded', cursive;
+    margin-left: 330px;
+    font-size: 20px;
+    margin-top: 55px;
+    display: block;
+}
+
+.feature3{
+    display: grid;
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-top: 40px;
+    margin-left: -100px;
+    padding-right: 25px;
+}
+
+.feature3-name{
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    margin-top: 60px;
+    display: block;
+    margin-left: 110px;
+}
+
+.feature4{
+    display: grid;
+    float: right;
+    margin-top: 40px;
+    width: 80px;
+    height: 100px;
+    padding-left: 35px;
+}
+
+.feature4-name{
+    font-family: 'Unbounded', cursive;
+    margin-left: 320px;
+    font-size: 20px;
+    margin-top: 5px;
+    display: block;
+    margin-top: 80px;
+}
+
+.container-contact{
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+}
+
+.contact{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    font-weight: 500;
+}
+
+.us{
+    margin-left: 15px;
+}
+
+.container-us{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    color: white;
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+}
+
+.address{
+    width: 50%;
+    padding: 50px 50px 50px 50px;
+}
+
+.reach-us{
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+.add{
+    margin-bottom: 30px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.connect{
+    width: 50%;
+    padding: 50px 50px 50px 50px;
+}
+
+.join{
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+.media{
+    width: 80px;
+    height: 80px;
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+}
